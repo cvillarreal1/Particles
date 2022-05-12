@@ -6,14 +6,14 @@
 /*
 particlesJS.load('particles-js', 'particles.json', function() {
   console.log('particles.js loaded - callback');
-});
-*/
+}); /*
+
 
 /* Otherwise just put the config content (json): */
 
 particlesJS('particles-js',
   
-  {
+{
   "particles": {
     "number": {
       "value": 80,
@@ -26,7 +26,7 @@ particlesJS('particles-js',
       "value": "#ffffff"
     },
     "shape": {
-      "type": "circle",
+      "type": "star",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -121,7 +121,7 @@ particlesJS('particles-js',
       }
     }
   },
-    "retina_detect": true,
+  "retina_detect": true,
     "config_demo": {
       "hide_card": false,
       "background_color": "#b61924",
